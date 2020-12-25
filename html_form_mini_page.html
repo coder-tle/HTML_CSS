@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML form example</title>
+</head>
+<body>
+    
+    <form>
+        <fieldset>
+            <legend>Academic Information</legend>
+            <div>
+            <label>Degree</label>
+            <select>
+                <option value="Value 1">Bachelor of Technology</option>
+                <option value="Value 2">Master of Technology</option>
+                <option value="Value 3">Master of Business Administration</option>
+            </select>
+            </div>
+            <div>
+            <label>Student ID</label>
+                <input type="text" id="studentID" name="StudentName">
+            </div>
+            <label>Classes attended</label>
+            <header>Header Area</header>
+            <nav>
+                <ul>
+                    <li>Mathematics</li>
+                    <li>History</li>
+                    <li>Geography</li>
+                </ul>
+            </nav>    
+            <footer>Footer area</footer>
+        </fieldset>
+        <fieldset>
+            <legend>Personal details</legend>
+            <label >First Name</label>
+            <input type="text" name="First Name">
+            <br>
+
+            <label >Second Name</label>
+            <input type="text" name="Second Name">
+            <br>
+
+            <label>Gender:</label>
+            <input type="radio"value="Male">
+            <label>Male</label>
+
+            <input type="radio" value="Female">
+            <label>Female</label>
+            <br>
+
+            <label>Email</label>
+            <input type="email" >
+
+        </fieldset>
+
+        <textarea cols="35" rows="10" value="Terms and Condition">
+
+        </textarea>
+        <br>
+        <button type="submit" >Send Form</button>
+        <button type="reset">Clear Fomr</button>
+    </form>
+</body>
+</html>
